@@ -8,7 +8,7 @@ const OrderSummary = (props) => {
         <span>{igKeys}</span>: {props.ingredients[igKeys]}
       </li>
     );
-  });
+  });//
 
   return (
     <div>
